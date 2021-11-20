@@ -14,7 +14,7 @@ import Message from "../components/Message";
 import { addToCart, removeFromCart } from "../actions/cartActions";
 
 const CartScreen = () => {
-  let navigate = useNavigate();
+  const navigate = useNavigate();
   const location = useLocation();
   const { id } = useParams();
 
